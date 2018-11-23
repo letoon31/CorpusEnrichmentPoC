@@ -63,7 +63,8 @@ conda install pytorch=0.4.0 -c pytorch
 
 Then, run the following code on your command prompt: 
 ```
-pip install -r requirements.txt ; python setup.py develop
+pip install -r requirements.txt
+python setup.py develop
 npm install watson-developer-cloud@3.9.0
 ```
 
