@@ -69,7 +69,7 @@ npm install watson-developer-cloud@3.9.0
 
 ### Downloading files
 
-To download all the file needed for the project, you have to dowload the data file  <a href="https://ibm.box.com/s/igyavfyg98kgfar3pm045jtu3q16oh0u">here</a>.
+To download all the file needed for the project, you have to dowload the data file  <a href="https://ibm.box.com/s/igyavfyg98kgfar3pm045jtu3q16oh0u">here</a>. <br />
 Then, unzip it and place it in the Code_Enrichment_Project folder.
 
 ### Verification
