@@ -33,6 +33,7 @@ METTRE TABLEAU AVANT APRES INTENTS ENTITIES
 ### Cloning the project
 
 First of all, clone or download the git project.
+You can dowload by clicking on "Clone or Download" then "Download ZIP" and go in the folder, or in your command prompt:
 ```
 git clone https://github.com/toto222/Enrichment_Project.git
 cd Enrichment_Project
