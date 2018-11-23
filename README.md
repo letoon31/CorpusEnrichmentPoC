@@ -48,16 +48,25 @@ WARNING: during the installation, you have to mark the icon "Add Anaconda to my 
 
 #### Installation of node.js
 
+Go to this link: <a href="https://nodejs.org/en/download/">here</a>. <br />
+Download the version of node adapted to your computer. <br />
+
 ### Python and node.js requirements
 
 To use the algorithm and test our PoC, you have some installation to do. <br />
 You must have Linux or OSX and 16Go of RAM.
 
-If you want to insure your local packages in python, it is recommended to create a new environment on Anaconda (optionnal):
+It is recommended to create a new environment on Anaconda:
 ```
 conda create -n Enrichment_Project python=3.6
-activate Enrichment_Project (for Windows users)
-source activate Enrichment_Project (for Linux/OSX users)
+```
+Now, activate this new environment, for Windows users:
+```
+activate Enrichment_Project
+```
+And for Linux/OSX users:
+```
+source activate Enrichment_Project
 ```
 
 First of all, you have to install PyTorch. <br />
@@ -74,8 +83,12 @@ Then, run the following code on your command prompt:
 ```
 pip install -r requirements.txt
 python setup.py develop
+```
+Then, parallely, open the program Node.js Command Prompt, and enter:
+```
 npm install watson-developer-cloud@3.9.0
 ```
+After the downloadind, you can close Node.js Command Prompt and go back to you classic Command Prompt.
 
 ### Downloading files
 
