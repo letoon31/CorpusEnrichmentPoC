@@ -30,7 +30,13 @@ METTRE TABLEAU AVANT APRES INTENTS ENTITIES
 
 ## Installation
 
-The writing of this section is in progress...
+### Cloning the project
+
+First of all, clone or download the git project.
+```
+git clone https://github.com/toto222/Enrichment_Project.git
+cd Enrichment_Project
+```
 
 ### Python and node.js requirements
 
