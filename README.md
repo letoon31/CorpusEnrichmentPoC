@@ -38,6 +38,15 @@ You can dowload by clicking on "Clone or Download" then "Download ZIP" and go in
 git clone https://github.com/toto222/Enrichment_Project.git
 cd Enrichment_Project
 ```
+You must have Anaconda and node.js installed on your computer.
+
+#### Installation of Anaconda (if needed)
+
+Go to this link: <a href="https://www.anaconda.com/download/">here</a>. <br />
+Download the version of anaconda adapted to your computer with the Python 3.7 version. <br />
+WARNING: during the installation, you have to mark the icon "Add Anaconda to my path environment variable."
+
+#### Installation of node.js
 
 ### Python and node.js requirements
 
