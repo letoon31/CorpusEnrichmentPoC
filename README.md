@@ -40,7 +40,7 @@ cd Enrichment_Project
 ```
 You must have Anaconda and node.js installed on your computer.
 
-#### Installation of Anaconda (if needed)
+#### Installation of Anaconda
 
 Go to this link: <a href="https://www.anaconda.com/download/">here</a>. <br />
 Download the version of anaconda adapted to your computer with the Python 3.7 version. <br />
@@ -54,7 +54,9 @@ Download the version of node adapted to your computer. <br />
 ### Python and node.js requirements
 
 To use the algorithm and test our PoC, you have some installation to do. <br />
-You must have Linux or OSX and 16Go of RAM.
+You must have 16Go of RAM to use the algorithm.
+
+#### Creating a new environment
 
 It is recommended to create a new environment on Anaconda:
 ```
@@ -68,6 +70,8 @@ And for Linux/OSX users:
 ```
 source activate Enrichment_Project
 ```
+
+#### Installing the packages
 
 First of all, you have to install PyTorch. <br />
 If your computer have a compatible GPU with CUDA X.X:
