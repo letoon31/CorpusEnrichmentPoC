@@ -26,7 +26,7 @@ On the other hand, our dataset is enriched: <br />
 
 Indeed, thanks to an Open Domain Question Answering algorithm, we have the ability to find the answer in our external corpus. <br />
 Moreover, for people who knows these chatbot concepts, the assistant parameters (intent, entity, dialog tree) are also enriched. <br />
-METTRE TABLEAU AVANT APRES INTENTS ENTITIES
+<img src="images/table_intent_entity.png" width="85%"> <br />
 
 ## Installation
 
