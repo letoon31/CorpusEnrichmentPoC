@@ -92,7 +92,7 @@ Code_Enrichement_Project
 
 Now you can launch your algorithm on your command prompt (you much have your environment activated):
 ```
-(Enrichment_Project) path/to/code/folder> python main.py
+(Enrichment_Project) path/to/enrichment/project/folder> python main.py
 ```
 
 You are asked of you want to see the logs, we send y for yes. <br />
