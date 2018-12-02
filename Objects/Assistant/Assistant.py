@@ -3,6 +3,7 @@ import logging
 from Objects.Assistant.Workspace_Module import Workspace_Module
 from Objects.Assistant.Intent_Module import Intent_Module
 from Objects.Assistant.NodeJSConnector import NodeJSConnector
+from Objects.Assistant.PythonAssistantFunctions import PythonAssistantConnector
 
 class Assistant():
     
@@ -10,11 +11,13 @@ class Assistant():
     ### INITIALISATION ###
     ######################
     
-    def __init__(self, username = 'c964a8c0-3ba6-4c7b-9f03-cfb20ae9e99b', password = 'F0GxwsnQ3zUe', workspace_id = '', workspace_name = 'Superheroes Workspace', remove_workspaces = False):
+    #def __init__(self, username = 'c964a8c0-3ba6-4c7b-9f03-cfb20ae9e99b', password = 'F0GxwsnQ3zUe', workspace_id = '', workspace_name = 'Superheroes Workspace', remove_workspaces = False):
+    def __init__(self, username = 'CL0b1mM0_OtJt7kKAFpuqXfxztw82qN3h31tHmNL03bD', password = 'https://gateway-fra.watsonplatform.net/assistant/api', workspace_id = '', workspace_name = 'Superheroes Workspace', remove_workspaces = False):
         logger = logging.getLogger(__name__)
         
         logger.info("Configuration of Watson Assistant.")
-        self.nodejsconnector = NodeJSConnector(username, password)
+        #self.nodejsconnector = NodeJSConnector(username, password)
+        self.nodejsconnector = PythonAssistantConnector(username, password)
         
         # Initialisation of modules
         self.workspace_module = Workspace_Module()

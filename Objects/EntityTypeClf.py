@@ -10,7 +10,7 @@ class EntityTypeClf():
         
         print(os.getcwd())
         
-        glove_vectors_file = "data/embedding_file/glove.6B.100d.txt"
+        glove_vectors_file = "data/embedding_file/glove.840B.300d.txt"
         logger.info("Loading glove... (about 5 minutes)")
         self.glove_wordmap = {}
         with open(glove_vectors_file, "r", encoding = "utf-8") as glove:
