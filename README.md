@@ -46,15 +46,10 @@ Go to this link: <a href="https://www.anaconda.com/download/">here</a>. <br />
 Download the version of anaconda adapted to your computer with the Python 3.7 version. <br />
 WARNING: during the installation, you have to mark the icon "Add Anaconda to my path environment variable."
 
-#### Installation of node.js
-
-Go to this link: <a href="https://nodejs.org/en/download/">here</a>. <br />
-Download the version of node adapted to your computer. <br />
-
-### Python and node.js requirements
+### Python requirements
 
 To use the algorithm and test our PoC, you have some installation to do. <br />
-You must have 16Go of RAM to use the algorithm.
+You must have 16Go of RAM to use the algorithm and OSX/Linux system. 
 
 #### Creating a new environment
 
@@ -88,11 +83,6 @@ Then, run the following code on your command prompt:
 pip install -r requirements.txt
 python setup.py develop
 ```
-Then, parallely, open the program Node.js Command Prompt, and enter:
-```
-npm install watson-developer-cloud@3.9.0
-```
-After the downloadind, you can close Node.js Command Prompt and go back to you classic Command Prompt.
 
 ### Downloading files
 
