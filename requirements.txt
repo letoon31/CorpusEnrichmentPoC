@@ -20,4 +20,5 @@ pandas
 
 Naked
 
+watson-developer-cloud
 pexpect==4.2.1
